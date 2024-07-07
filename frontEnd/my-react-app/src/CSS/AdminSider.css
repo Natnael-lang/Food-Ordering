@@ -1,0 +1,44 @@
+.admin-sider{
+   position: fixed;
+   margin-top: 50px;
+    left: 2px;
+    top: 0px;
+    bottom: 0px;
+    width: 110px;
+    background:black;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    
+    
+
+}
+.admin-sider div{
+    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display:flex;
+    justify-content:start;
+    margin-left:3px;
+    margin-right:3px;
+    margin-bottom:50px;
+    padding-left:5px;
+    
+    
+}
+.admin-sider div a{
+    text-decoration:none;
+    color:white;
+    margin-left:8px;
+}
+.admin-sider div a:active{
+
+    color:orange;
+}
+.admin-icons{
+    color:white;
+}
+.admin-sider div:hover{
+    background-color:grey;
+}

@@ -1,0 +1,78 @@
+/* body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(17, 16, 16);
+} */
+.div-form{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/delivery.jpg");
+    background-size: cover;
+    
+}
+form{
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 20px;
+    background-color:white;
+}
+#ent-password,#ent-email{
+    margin:50px 5px;
+}
+#password{
+    margin-left: 10px;
+}
+input{
+    height:25px;
+    border: none;
+  outline: none;
+}
+input:focus{
+    border: 1px solid darkgray;
+}
+
+label{
+    margin-right: 30px;
+}
+.loginDiv{
+    display: flex;
+    justify-content:center;
+}
+.login-button{
+    color: white;
+    width:70%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color:rgb(12, 12, 11);
+    border: none;
+    
+}
+.login-button:focus{
+    border: 1px solid darkgray;
+}
+.back-btn{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color:rgb(221, 210, 210);
+  border: none;
+}
+.div-forgot{
+    display: flex;
+    justify-content: right;
+}
+.forgot-btn{
+    margin-top: 10px;
+    padding:2px;
+    border: none;
+    color: darkgray;
+    background-color: white;
+}

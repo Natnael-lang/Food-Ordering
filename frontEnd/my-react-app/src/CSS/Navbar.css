@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;}
+html,body{
+    background-color: white;
+}
+.header-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+   background-color: white;
+
+}
+.ad-div{
+    width:95vw;
+    height: 350px;
+    background-image: url("../images/pizzon-food-website-template.png");
+     object-fit: cover;
+
+    object-position:center;
+}
+
+.header-div{
+    height: 50px;
+    position: fixed;
+    top:0px;
+    right:2px;
+    left:2px;
+    background-color:white;
+    display: flex;
+    
+}
+.left-header-div{
+      flex:2;
+      height: 100%;
+      margin-right: 5px;
+}
+.middle-header-div{
+    
+
+    width:200px;
+    min-width: 200px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+.ho:hover{
+    color:none !important
+    
+}
+
+.right-header-div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex:3;
+    height:100%;
+}
+.right-nav-icon{
+    display: flex;
+    width:150px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.search-div{
+    display: flex;
+    flex: 1;
+   
+}
+.search-div input{
+    flex:1;
+     border: 1px solid rgb(231, 227, 227);   
+    height: 32px;
+    border-radius:2px;
+    margin-right: -32px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+    width: 2px;
+    
+}
+.search-div button{
+    width:30px;
+    height: 28px;
+    font-size: 18px;
+   border: none;
+    margin-top: 3px;
+    padding-top: 2px;
+    background-color: white;
+    
+    
+}
+.search-div input::placeholder{
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,17 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+
+    width:80px;
+    height: 80px;
+    background-color: blue;
+}
+input{
+
+    width:80px;
+    padding: 1rem 0.5rem;
+}
